@@ -1,0 +1,32 @@
+.navbar {
+  margin-bottom: 16px;
+  padding: 5px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 16px;
+
+  transition: all ease-in-out 450ms;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #9a9aee;
+  font-weight: 700;
+  transition: all ease-in-out 450ms;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover {
+  color: red;
+  border-bottom: 2px solid;
+}

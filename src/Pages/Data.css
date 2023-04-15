@@ -1,0 +1,78 @@
+.data-container table {
+  width: 100%;
+  margin-bottom: 0 16px;
+  /* text-align: center; */
+}
+
+.data-container h3 {
+  text-align: center;
+}
+
+th,
+tr,
+td {
+  /* border: 1px solid; */
+  min-height: 48px;
+  padding: 0 10px;
+}
+
+.data-container th {
+  color: red;
+  font-size: larger;
+  padding: 8px 0;
+  background: palegreen;
+}
+
+.data-container th:nth-child(1),
+.data-container th:nth-child(3),
+.data-container th:nth-child(4) {
+  width: 150px;
+  /* color: red; */
+}
+
+.data-container th:nth-child(5) {
+  width: 100px;
+}
+
+.data-container tbody {
+  background: #1111110c;
+  transition: all ease-in-out 200ms;
+}
+
+.data-container tbody:nth-child(even) {
+  background: #11111124;
+}
+
+.data-container tbody:hover {
+  background: #1111115c;
+}
+
+.data-container td:nth-child(2) {
+  text-align: start;
+}
+
+.data-container .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  border: none;
+  margin: 0 5px;
+  background: none;
+  cursor: pointer;
+}
+
+.data-container svg {
+  width: 20px;
+  /* margin: 5px; */
+}
+
+/* media query */
+/* @media only screen and (max-width: 480px) {
+} */

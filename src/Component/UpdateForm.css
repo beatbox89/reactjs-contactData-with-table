@@ -1,0 +1,21 @@
+.edit-form {
+  background: rgb(255, 255, 255);
+  /* color: red; */
+  /* border: 1px solid; */
+}
+
+.edit-form td {
+  background: none;
+  /* color: red; */
+  /* border: 1px solid; */
+}
+
+.edit-form input {
+  font-size: large;
+  font-weight: 500;
+  width: 100%;
+  color: rgb(129, 133, 130);
+  padding: 8px 0;
+  border: none;
+  outline: none;
+}
